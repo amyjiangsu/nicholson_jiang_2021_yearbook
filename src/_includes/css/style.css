@@ -9,6 +9,7 @@ header .nav-main {
 header .nav-main a:hover {
   background: #e9e9e9;
   text-decoration: none;
+  color: #030303;
 }
 header .nav-main .nav-list {
   display: flex;
@@ -27,9 +28,10 @@ header .nav-main .nav-list a:hover {
   background: #e9e9e9;
   background: #ededed;
   text-decoration: none;
+  color: #030303;
 }
 header .nav-main .nav-list .link {
-  color: #212121;
+  color: #d3d3d3;
   padding: 0.8rem 0.75rem;
   margin: 0 0.4rem;
   font-size: 16px;
@@ -42,7 +44,7 @@ header .nav-main .nav-list .link:first-child {
 }
 header .nav-main .home-button {
   text-decoration: none;
-  color: #212121;
+  color: #d3d3d3;
   padding-right: 0.5rem;
   font-size: 24px;
   font-size: clamp(1.3rem, 4vw, 1.5rem);
@@ -56,7 +58,7 @@ header .intro {
   padding: 0 1.5rem;
 }
 header .intro div p {
-  color: #333;
+  color: #d3d3d3;
 }
 header .intro div:first-child {
   margin-right: 2rem;
@@ -87,7 +89,7 @@ header .intro .hire-me:hover {
 
 .main-gallery {
   max-width: 1100px;
-  margin: 3rem auto 0 auto;
+  margin: 1rem auto 0 auto;
 }
 
 .ft-h1 {
@@ -99,7 +101,7 @@ header .intro .hire-me:hover {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   max-width: 1100px;
-  gap: 50px;
+  gap: 30px;
   margin: 1.5rem auto 1rem auto;
   list-style: none;
 }
@@ -120,16 +122,15 @@ header .intro .hire-me:hover {
 }
 .gallery-item .image-block .block-details p {
   margin-bottom: 0;
-  color: #333;
+  color: #d3d3d3;
 }
 .gallery-item a {
-  color: #212121;
+  color: #d3d3d3;
 }
 .gallery-item a .gallery-photo {
   max-width: 100%;
-  height: 500px;
   max-height: 500px;
-  object-fit: cover;
+  object-fit: scale-down;
   border-radius: 2px;
   filter: brightness(99%);
   transition: filter 0.5s ease;
@@ -143,7 +144,7 @@ header .intro .hire-me:hover {
 .image-grid {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
   gap: 3px;
   max-width: 1100px;
   margin: 1rem auto 3rem auto;
@@ -151,12 +152,12 @@ header .intro .hire-me:hover {
   padding-right: 1.5rem;
 }
 .image-grid .image-container {
-  height: 20rem;
+  height: 17rem;
   overflow: hidden;
   border-radius: 2px;
 }
 .image-grid .image-container a .grid-image {
-  object-fit: cover;
+  object-fit: scale-down;
   height: 100%;
   width: 100%;
   transform-origin: 50% 50%;
@@ -183,7 +184,7 @@ header .intro .hire-me:hover {
   padding-right: 1.5rem;
 }
 .featured-img .showcase-img {
-  object-fit: cover;
+  object-fit: scale-down;
   /* object-fit: contain; this is best but causes letterboxing" */
   max-width: 100%;
   height: 90vh;
@@ -204,7 +205,7 @@ header .intro .hire-me:hover {
   text-decoration: none;
   background: inherit;
   font-size: 1em;
-  color: #333;
+  color: #030303;
   background: #f2f2f2;
 }
 .featured-img .prev-next a:hover {
@@ -289,10 +290,10 @@ footer {
   bottom: 0;
 }
 footer a {
-  color: #212121;
+  color: #d3d3d3;
 }
 footer a:hover {
-  color: #1836AF;
+  color: #8698e2;
 }
 
 .social-links {
@@ -317,7 +318,7 @@ footer a:hover {
   width: 100%;
 }
 .footer-content p {
-  color: #222;
+  color: #d3d3d3;
 }
 
 .footer-info {
@@ -341,10 +342,10 @@ footer a:hover {
   margin: 0 0.6rem;
 }
 .footer-info .footer-links .footer-link a {
-  color: #212121;
+  color: #d3d3d3;
 }
 .footer-info .footer-links .footer-link a:hover {
-  color: #1836AF;
+  color: #8698e2;
 }
 .footer-info.about {
   border: none;
@@ -404,9 +405,10 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: #fcfcfc;
+  background: #030303;
   font-size: 16px;
   line-height: 1.6;
+  color: #d3d3d3;
 }
 
 img {
@@ -423,26 +425,31 @@ p {
 }
 
 a {
-  color: #2540AD;
+  color: #8698e2;
   text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 a:hover {
   text-decoration: underline;
-  color: #1836AF;
+  color: #8698e2;
 }
 a.credit:hover {
   text-decoration: underline;
 }
 
 main p {
-  margin-bottom: 24px;
+  margin-bottom: 4px;
 }
-main h1, main h2, main h3, main h4, main h5, main h6 {
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
   margin-bottom: 24px;
 }
 main .gallery {
-  margin: 3rem auto;
+  margin: 1rem auto;
   max-width: 1100px;
   padding: 0 1.5rem;
 }
@@ -462,28 +469,30 @@ main .gallery-header {
   transition: transform 0.3s ease-in-out;
   padding: 0.5rem;
   background: white;
-  color: #222;
+  color: #d3d3d3;
   z-index: 999;
 }
 .skip-link:focus {
   transform: translateY(0);
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #212121;
+  color: #d3d3d3;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: clamp(2.75rem, 8vw, 3.25rem);
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: clamp(1.5rem, 5vw, 1.8rem);
-}
-
-#main {
-  margin-top: 3rem;
 }
 
 .about-page {
@@ -519,7 +528,7 @@ h2, .h2 {
   max-width: 1100px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  color: #212141;
+  color: #d3d3d3;
 }
 .page-banner p {
   font-size: 1rem;
@@ -558,6 +567,10 @@ h2, .h2 {
   margin: 3rem auto 2rem auto;
 }
 
+#main {
+  margin-top: 1em;
+}
+
 /* Media Queries */
 @media screen and (max-width: 897px) {
   .gallery-item {
@@ -589,12 +602,18 @@ h2, .h2 {
 }
 @media screen and (max-width: 650px) {
   .gallery-item a .gallery-photo {
-    height: 70vh;
+    height: 20vh;
     max-height: 400px;
   }
 
   .featured-img .showcase-img {
     height: 65vh;
+  }
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 3px;
   }
 }
 @media screen and (max-width: 565px) {
@@ -669,12 +688,6 @@ h2, .h2 {
   .featured-img h1 {
     text-align: center;
     margin: 0 auto 1em auto;
-  }
-
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-    gap: 3px;
   }
 }
 @media screen and (max-width: 350px) {

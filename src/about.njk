@@ -14,26 +14,13 @@ layout: main.njk
 
 <div class="about-me-content">
   <h1>{{ heading }}</h1>
-  <p>Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I'm a novice photography and designer. This website acts as a compendium of images I've taken over the years. If you'd like to learn more about me, try [sending me an email](mailto:{{ site.author.email }}).</p>
-  <p>This is mock text, write whatever you'd like for the about me page. Maybe add a picture or some of your recent work!</p>
-  <p>You can find me around the web at the following places:</p>
-
-  <ul class="about-socials">
-    {% for key, value in site.socials %}
-      <li><a href="{{ value }}">{{ key | title }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <h2 id="contact-me">Contact</h2>
-  <p>Feel free to reach out to me by email or on social media. I usually take 24-48hrs to respond. If you think my work aligns with your projects needs, I'd love to hear from you!</p>
+  <p>YEAR IN REVIEW: </p>
+  <p>as we continued to work from home in 2021, our life was still centered around James' amazing cooking and great food.  
+  The best time spent in our house this year was still around the kitchen.  
+  But, unlike 2020, we got vaccinated early in the year, and then became American citizens in May.  
+  What was stagnated due to Covid finally started moving along, 
+  and we dared to travel to different cities and tried the outdoor life from time to time.  </p>
   
-  <form class="contact-form" onsubmit="sendMail()">
-      <label for="name">What's Your Name?</label>
-      <input type="text" name="name" id="name" required>
-      <label class="form-label" for="subject">Subject</label>
-      <input class="email-subject" type="text" name="subject" id="subject" required>
-      <label class="form-label" for="message">Message</label>
-      <textarea class="email-msg" rows="5" cols="30" name="message" id="message" required></textarea>
-      <button type="submit" class="reach-me button submit-contact">Message me</button>
-  </form>
+  <p>All through the year, we have stayed super close with Nicholsons in the other parts of the world, 
+  hence their lives and travels are part of this year's yearbook too. </p>
 </div>
