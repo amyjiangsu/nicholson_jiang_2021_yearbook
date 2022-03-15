@@ -145,14 +145,13 @@ header .intro .hire-me:hover {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
-  gap: 3px;
+  gap: 10px;
   max-width: 1100px;
   margin: 1rem auto 3rem auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 .image-grid .image-container {
-  height: 17rem;
   overflow: hidden;
   border-radius: 2px;
 }
@@ -592,28 +591,17 @@ h2,
   }
 }
 @media screen and (max-width: 750px) {
-  .gallery-item a .gallery-photo {
-    height: 90vh;
-  }
-
   header .nav-main .nav-list li {
     margin: 0 0.75rem;
   }
 }
 @media screen and (max-width: 650px) {
   .gallery-item a .gallery-photo {
-    height: 20vh;
     max-height: 400px;
   }
 
   .featured-img .showcase-img {
     height: 65vh;
-  }
-
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-    gap: 3px;
   }
 }
 @media screen and (max-width: 565px) {

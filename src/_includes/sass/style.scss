@@ -234,7 +234,7 @@ h2,
   .gallery-item {
     a {
       .gallery-photo {
-        height: 90vh;
+        // height: 90vh;
       }
     }
   }
@@ -248,7 +248,7 @@ h2,
   .gallery-item {
     a {
       .gallery-photo {
-        height: 20vh;
+        // height: 20vh;
         max-height: 400px;
       }
     }
@@ -260,11 +260,11 @@ h2,
     }
   }
 
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-    gap: 3px;
-  }
+  // .image-grid {
+  //   display: grid;
+  //   grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  //   gap: 3px;
+  // }
 }
 
 @media screen and (max-width: 565px) {
