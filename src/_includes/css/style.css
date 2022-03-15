@@ -144,7 +144,6 @@ header .intro .hire-me:hover {
 .image-grid {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
   gap: 10px;
   max-width: 1100px;
   margin: 1rem auto 3rem auto;
@@ -601,7 +600,7 @@ h2,
   }
 
   .featured-img .showcase-img {
-    height: 65vh;
+    height: 60vh;
   }
 }
 @media screen and (max-width: 565px) {
